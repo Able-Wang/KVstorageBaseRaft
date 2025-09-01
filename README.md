@@ -1,5 +1,6 @@
 # KVstorageBaseRaft
 项目描述：
+
 本项目是基于Raft共识算法的分布式K-V数据库，具备线性一致性和分区容错性，在少于半数节点发生故障仍可正常对外提供服务。使用个人实现的RPC通信框架MprRpc和跳表数据库SKipListPro完成RPC功能和K-V存储功能。
 
 项目工作点：
